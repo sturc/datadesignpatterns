@@ -1,4 +1,4 @@
-package de.dhbw.mosbach.dp.mapping.datamapper;
+package de.dhbw.mosbach.dp.mapping.datamapper.exercises;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import de.dhbw.mosbach.dp.MySQLUtil;
+import de.dhbw.mosbach.dp.mapping.datamapper.AbstractMapper;
+import de.dhbw.mosbach.dp.mapping.datamapper.DomainObject;
+import de.dhbw.mosbach.dp.mapping.datamapper.Workers;
 
 public class WorkersMapper extends AbstractMapper {
 

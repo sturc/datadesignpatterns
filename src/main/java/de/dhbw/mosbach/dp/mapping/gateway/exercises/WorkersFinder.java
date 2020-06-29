@@ -1,4 +1,4 @@
-package de.dhbw.mosbach.dp.mapping.gateway;
+package de.dhbw.mosbach.dp.mapping.gateway.exercises;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Vector;
 
 import de.dhbw.mosbach.dp.MySQLUtil;
+import de.dhbw.mosbach.dp.mapping.gateway.WorkersRowGateway;
 
 public class WorkersFinder {
 
@@ -37,5 +38,10 @@ public class WorkersFinder {
 			result.add(WorkersRowGateway.load(rs));
 		}
 		return result;
+	}
+
+	public List<WorkersRowGateway> findAll() {
+		// TODO implement the method
+		return new Vector<WorkersRowGateway>();
 	}
 }

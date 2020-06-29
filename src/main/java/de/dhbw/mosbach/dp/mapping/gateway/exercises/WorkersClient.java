@@ -1,6 +1,9 @@
-package de.dhbw.mosbach.dp.mapping.gateway;
+package de.dhbw.mosbach.dp.mapping.gateway.exercises;
 
 import java.sql.SQLException;
+
+import de.dhbw.mosbach.dp.mapping.gateway.WorkersDomainObject;
+import de.dhbw.mosbach.dp.mapping.gateway.WorkersRowGateway;
 
 public class WorkersClient {
 

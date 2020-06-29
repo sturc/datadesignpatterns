@@ -1,7 +1,9 @@
-package de.dhbw.mosbach.dp.mapping.datamapper;
+package de.dhbw.mosbach.dp.mapping.datamapper.exercises;
 
 import java.sql.SQLException;
 import java.util.List;
+
+import de.dhbw.mosbach.dp.mapping.datamapper.Workers;
 
 public class WorkersClient {
 

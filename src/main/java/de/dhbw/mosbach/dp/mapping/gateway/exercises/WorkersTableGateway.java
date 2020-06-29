@@ -1,4 +1,4 @@
-package de.dhbw.mosbach.dp.mapping.gateway;
+package de.dhbw.mosbach.dp.mapping.gateway.exercises;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -40,14 +40,7 @@ public class WorkersTableGateway {
 	}
 
 	public void update(String id, String firstname, String lastname, int department) throws SQLException {
-		String sql = "UPDATE Workers SET LastName = ?, FirstName = ?, Dep = ? WHERE ID = ?";
-		PreparedStatement pstmt = conn.prepareStatement(sql);
-		pstmt = conn.prepareStatement(sql);
-		pstmt.setString(1, firstname);
-		pstmt.setString(2, lastname);
-		pstmt.setInt(3, department);
-		pstmt.setString(4, id);
-		pstmt.executeUpdate();
+		// TODO Implement
 	}
 
 	public int insert(String id, String firstname, String lastname, int department) throws SQLException {
