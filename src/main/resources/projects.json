@@ -1,0 +1,11 @@
+{
+	"_id":"1",
+	"Pname":"ProductX",
+	"Plocation":"Bellaire",
+	"Workers": [
+		{"FirstName":"Alan",
+		 "LastName":"Smith"},
+		{"FirstName":"John",
+		 "LastName":"Brown"}
+	]
+}

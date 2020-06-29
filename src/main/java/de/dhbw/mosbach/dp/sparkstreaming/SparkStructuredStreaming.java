@@ -49,12 +49,6 @@ public class SparkStructuredStreaming {
 			master = "local[*]";
 		}
 
-		try {
-			Class.forName("com.mysql.jdbc.Driver");
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-			System.out.println("Database driver loading failed!");
-		}
 
 		KafkaProperties userProps = new KafkaProperties();
 		String jaasTemplate = "org.apache.kafka.common.security.scram.ScramLoginModule required username=\"%s\" password=\"%s\";";

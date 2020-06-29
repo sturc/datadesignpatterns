@@ -10,7 +10,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
 
 public class KafkaProperties {
 
-	private final static String PROPFILE = "/Users/sturm/Development/spark-streaming/ldvj1amy-sasl-scram.txt";
+	private final static String PROPFILE = "../ldvj1amy-sasl-scram.txt";
 	private Properties userProps = new Properties();
 	private final Properties kafkaProps = new Properties();
 
