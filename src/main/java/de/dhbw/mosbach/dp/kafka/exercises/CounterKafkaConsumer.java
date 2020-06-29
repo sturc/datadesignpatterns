@@ -1,4 +1,4 @@
-package de.dhbw.mosbach.dp.exercises;
+package de.dhbw.mosbach.dp.kafka.exercises;
 
 import java.util.Arrays;
 import java.util.Properties;

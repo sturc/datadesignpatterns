@@ -20,7 +20,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
 
 public class ConnectToKafka {
 
-	private final static String PROPFILE = "/Users/sturm/Development/spark-streaming/ldvj1amy-sasl-scram.txt";
+	private final static String PROPFILE = "../ldvj1amy-sasl-scram.txt";
 
 	private final String topic;
 	private final Properties props;

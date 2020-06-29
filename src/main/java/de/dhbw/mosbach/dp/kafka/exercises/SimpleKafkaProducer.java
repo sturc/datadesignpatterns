@@ -1,4 +1,4 @@
-package de.dhbw.mosbach.dp.exercises;
+package de.dhbw.mosbach.dp.kafka.exercises;
 
 import java.util.Properties;
 import java.util.Random;
@@ -22,8 +22,8 @@ public class SimpleKafkaProducer {
 
 	public static void main(String[] args) {
 		SimpleKafkaProducer p = new SimpleKafkaProducer();
-		// p.produce();
-		p.produceTigers();
+		p.produce();
+		// p.produceTigers();
 	}
 
 	public SimpleKafkaProducer() {

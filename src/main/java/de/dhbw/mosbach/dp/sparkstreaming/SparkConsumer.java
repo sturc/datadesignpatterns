@@ -72,20 +72,6 @@ public class SparkConsumer {
 			lines.foreachRDD(x -> {
 				x.collect().stream().forEach(n -> System.out.println("item of list: " + n));
 			});
-
-			// System.out.println("Num Messages: " + lines.count());
-//			JavaDStream<String> words = lines.flatMap(x -> Arrays.asList(SPACE.split(x)).iterator());
-//			JavaPairDStream<String, Integer> wordCounts = words.mapToPair(s -> new Tuple2<>(s, 1))
-//					.reduceByKey((i1, i2) -> i1 + i2);
-//			wordCounts.print();
-//			stream.foreachRDD(rdd -> {
-//				OffsetRange[] offsetRanges = ((HasOffsetRanges) rdd.rdd()).offsetRanges();
-//			});
-//			JavaPairDStream<String, String> pairStream = stream
-//					.mapToPair(record -> new Tuple2<>(record.key(), record.value()));
-//			System.out.println("Num Messages: " + pairStream.count());
-//			pairStream.print();
-
 			// Start the computation
 			jssc.start();
 			jssc.awaitTermination();

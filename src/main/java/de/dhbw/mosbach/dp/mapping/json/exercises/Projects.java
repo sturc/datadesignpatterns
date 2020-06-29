@@ -1,4 +1,4 @@
-package de.dhbw.mosbach.dp.exercises;
+package de.dhbw.mosbach.dp.mapping.json.exercises;
 
 public class Projects {
 
