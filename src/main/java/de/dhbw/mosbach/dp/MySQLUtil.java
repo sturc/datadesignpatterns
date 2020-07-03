@@ -7,9 +7,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class MySQLUtil {
-	// private static String url = "jdbc:mysql://db4free.net:3306/mysqldp";
-	// private static String user = "dpuser";
-	// private static String pwd = "DesignPatternsSS20";
 
 	private static String url = "jdbc:mysql://localhost:3306/mysqldp";
 	private static String user = "mysql";
